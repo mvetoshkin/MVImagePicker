@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MVImagePicker_Example' do
+  pod 'MVImagePicker', :path => '../'
+
+  target 'MVImagePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
