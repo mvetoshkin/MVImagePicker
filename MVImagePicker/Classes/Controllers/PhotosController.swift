@@ -97,10 +97,11 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
 
         self.collectionView.allowsMultipleSelection = self.multipleSelection
 
+        self.photosDataSource.selectedAssets.removeAll(keepCapacity: false)
+
         self.photosDataSource.fetchData(self.album)
         PHPhotoLibrary.sharedPhotoLibrary().registerChangeObserver(self)
         self.collectionView.reloadData()
-        self.selectAssets()
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -131,7 +132,6 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
     func photoLibraryDidChange(changeInstance: PHChange) {
         typealias restoreSelectedType = () -> Void
         let restoreSelected: restoreSelectedType = { () -> Void in
-
             if let cnt = self.photosDataSource.fetchResult?.count where cnt > 0 {
                 for idx in 0...cnt - 1 {
                     let ip = NSIndexPath(forItem: idx, inSection: 0)
@@ -237,19 +237,21 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
     }
 
     func imagePickerAssetDidSelect(dataSource: ImagePickerPhotosDataSource, asset: PHAsset) {
-        self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (ast, index, _) -> Void in
+        self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (ast, index, stop) -> Void in
             if (ast as! PHAsset) == asset {
                 let ip = NSIndexPath(forItem: index, inSection: 0)
                 self.collectionView.selectItemAtIndexPath(ip, animated: true, scrollPosition: UICollectionViewScrollPosition.None)
+                stop.memory = true
             }
         })
     }
 
     func imagePickerAssetDidDeselect(dataSource: ImagePickerPhotosDataSource, asset: PHAsset) {
-        self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (ast, index, _) -> Void in
+        self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (ast, index, stop) -> Void in
             if (ast as! PHAsset) == asset {
                 let ip = NSIndexPath(forItem: index, inSection: 0)
                 self.collectionView.deselectItemAtIndexPath(ip, animated: true)
+                stop.memory = true
             }
         })
     }
@@ -300,11 +302,13 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
     // MARK: Private methods
 
     private func selectAssets() {
-        self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (asset, index, _) -> Void in
-            if let _ = self.photosDataSource.selectedAssets.indexOf(asset as! PHAsset) {
-                let ip = NSIndexPath(forItem: index, inSection: 0)
-                self.collectionView.selectItemAtIndexPath(ip, animated: false, scrollPosition: UICollectionViewScrollPosition.None)
-            }
-        })
+        if self.photosDataSource.selectedAssets.count > 0 {
+            self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (asset, index, _) -> Void in
+                if let _ = self.photosDataSource.selectedAssets.indexOf(asset as! PHAsset) {
+                    let ip = NSIndexPath(forItem: index, inSection: 0)
+                    self.collectionView.selectItemAtIndexPath(ip, animated: false, scrollPosition: UICollectionViewScrollPosition.None)
+                }
+            })
+        }
     }
 }
