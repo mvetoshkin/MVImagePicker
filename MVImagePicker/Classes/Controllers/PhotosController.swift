@@ -96,6 +96,7 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
         self.view.addSubview(self.collectionView)
         self.setupConstraints()
 
+        self.photosDataSource.multipleSelection = self.multipleSelection
         self.collectionView.allowsMultipleSelection = self.multipleSelection
 
         self.photosDataSource.selectedAssets.removeAll(keepCapacity: false)
@@ -198,6 +199,10 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
         }
 
         self.imageManager.requestImageDataForAsset(asset, options: options, resultHandler: { (_, _, _, _) -> Void in
+            if !self.multipleSelection {
+                self.photosDataSource.selectedAssets.removeAll(keepCapacity: false)
+            }
+
             self.collectionView.selectItemAtIndexPath(indexPath, animated: false, scrollPosition: UICollectionViewScrollPosition.None)
             self.photosDataSource.selectedAssets.append(asset)
             self.delegate?.imagePickerPhotosViewControllerAssetDidSelect(self, asset: asset, cell: cell)
@@ -306,10 +311,14 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
 
     private func selectAssets() {
         if self.photosDataSource.selectedAssets.count > 0 {
-            self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (asset, index, _) -> Void in
+            self.photosDataSource.fetchResult?.enumerateObjectsUsingBlock({ (asset, index, stop) -> Void in
                 if let _ = self.photosDataSource.selectedAssets.indexOf(asset as! PHAsset) {
                     let ip = NSIndexPath(forItem: index, inSection: 0)
                     self.collectionView.selectItemAtIndexPath(ip, animated: false, scrollPosition: UICollectionViewScrollPosition.None)
+
+                    if !self.multipleSelection {
+                        stop.memory = true
+                    }
                 }
             })
         }

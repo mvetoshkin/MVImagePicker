@@ -29,6 +29,7 @@ class ImagePickerPhotosDataSource: NSObject, UICollectionViewDataSource {
 
     var fetchResult: PHFetchResult?
     var selectedAssets = [PHAsset]()
+    var multipleSelection = true
 
     // MARK: Lazy init
 
@@ -134,6 +135,10 @@ class ImagePickerPhotosDataSource: NSObject, UICollectionViewDataSource {
     }
 
     func selectAsset(asset: PHAsset) {
+        if !self.multipleSelection {
+            self.selectedAssets.removeAll(keepCapacity: false)
+        }
+
         self.selectedAssets.append(asset)
         self.delegate?.imagePickerAssetDidSelect(self, asset: asset)
     }
