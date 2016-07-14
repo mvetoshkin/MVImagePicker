@@ -1,11 +1,11 @@
 use_frameworks!
 
 target 'MVImagePicker_Example' do
-  pod 'MVImagePicker', :path => '../'
+    pod "JTSImageViewController", "~> 1.5"
+    pod 'MVImagePicker', :path => '../'
+    pod "SVProgressHUD", "~> 1.1"
 
-  target 'MVImagePicker_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    target 'MVImagePicker_Tests' do
+        inherit! :search_paths
+    end
 end

@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		CB05FAA51D1ADB7B00312FF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB05FAA31D1ADB7B00312FF6 /* LaunchScreen.xib */; };
+		CB05FAAA1D1C1A8800312FF6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05FAA91D1C1A8800312FF6 /* UIColor+Extension.swift */; };
+		CB05FAAD1D1C1A9900312FF6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05FAAC1D1C1A9900312FF6 /* MainViewController.swift */; };
+		CB05FAAF1D1C2D7700312FF6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05FAAE1D1C2D7700312FF6 /* BaseNavigationController.swift */; };
 		E3432806E0183DF31AF43870 /* Pods_MVImagePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753EEE1DEE36BC072FB2F3C /* Pods_MVImagePicker_Tests.framework */; };
 		F0B7213521D04CBA11F2D9A9 /* Pods_MVImagePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2151FB34628A23A0D3FC37B /* Pods_MVImagePicker_Example.framework */; };
 /* End PBXBuildFile section */
@@ -34,10 +35,7 @@
 		607FACD01AFB9204008FA782 /* MVImagePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVImagePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MVImagePicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVImagePicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -46,6 +44,10 @@
 		9C7D50F8BA470B8BC7C45C4C /* Pods-MVImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVImagePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVImagePicker_Tests/Pods-MVImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEFAE0E64B8E3DC3DEE8FE0A /* Pods-MVImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVImagePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVImagePicker_Example/Pods-MVImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B64839CC409F5C3A7CD1636A /* MVImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MVImagePicker.podspec; path = ../MVImagePicker.podspec; sourceTree = "<group>"; };
+		CB05FAA41D1ADB7B00312FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB05FAA91D1C1A8800312FF6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CB05FAAC1D1C1A9900312FF6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = "<group>"; };
+		CB05FAAE1D1C2D7700312FF6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNavigationController.swift; path = Controllers/BaseNavigationController.swift; sourceTree = "<group>"; };
 		E2151FB34628A23A0D3FC37B /* Pods_MVImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,12 +104,12 @@
 		607FACD21AFB9204008FA782 /* Example for MVImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				CB05FAAB1D1C1A8C00312FF6 /* Controllers */,
+				CB05FAA81D1C1A5800312FF6 /* Extensions */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				CB05FAA31D1ADB7B00312FF6 /* LaunchScreen.xib */,
 			);
 			name = "Example for MVImagePicker";
 			path = MVImagePicker;
@@ -157,6 +159,23 @@
 				62542F99C53B05B205132C94 /* Pods-MVImagePicker_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB05FAA81D1C1A5800312FF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB05FAA91D1C1A8800312FF6 /* UIColor+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CB05FAAB1D1C1A8C00312FF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB05FAAE1D1C2D7700312FF6 /* BaseNavigationController.swift */,
+				CB05FAAC1D1C1A9900312FF6 /* MainViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +234,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A42LC45TBY;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -246,8 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CB05FAA51D1ADB7B00312FF6 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,8 +378,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CB05FAAF1D1C2D7700312FF6 /* BaseNavigationController.swift in Sources */,
+				CB05FAAD1D1C1A9900312FF6 /* MainViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CB05FAAA1D1C1A8800312FF6 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,18 +404,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		CB05FAA31D1ADB7B00312FF6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				CB05FAA41D1ADB7B00312FF6 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -489,6 +502,7 @@
 			baseConfigurationReference = AEFAE0E64B8E3DC3DEE8FE0A /* Pods-MVImagePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MVImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -502,6 +516,7 @@
 			baseConfigurationReference = 40F73E187F25F5D4579D91D4 /* Pods-MVImagePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MVImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
