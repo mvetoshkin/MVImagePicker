@@ -101,11 +101,17 @@ class ImagePickerPhotosDataSource: NSObject, UICollectionViewDataSource {
 
     // MARK: Public methods
 
-    class func fetchAssets(album: PHAssetCollection?) -> PHFetchResult {
+    class func fetchAssets(album: PHAssetCollection?, fetchLimit: Int? = nil) -> PHFetchResult {
         let fetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [
             NSSortDescriptor(key: "creationDate", ascending: false)
         ]
+
+        if let limit = fetchLimit {
+            if #available(iOS 9.0, *) {
+                fetchOptions.fetchLimit = limit
+            }
+        }
 
         if let alb = album {
             fetchOptions.predicate = NSPredicate(format: "mediaType == %d", PHAssetMediaType.Image.rawValue)
