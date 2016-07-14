@@ -26,6 +26,8 @@ import UIKit
     func imagePickerViewControllerAssetDidSelect(viewController: ImagePickerViewController, asset: PHAsset, cell: ImagePickerPhotoCell)
     func imagePickerViewControllerAssetDidDeselect(viewController: ImagePickerViewController, asset: PHAsset, cell: ImagePickerPhotoCell)
     optional func imagePickerViewControllerAssetDidLongTap(viewController: ImagePickerViewController, asset: PHAsset, cell: ImagePickerPhotoCell)
+
+    optional func imagePickerViewControllerAlbumOpened(viewController: ImagePickerViewController, album: PHAssetCollection)
 }
 
 @objc public protocol ImagePickerViewControllerScrollDelegate {
@@ -208,6 +210,10 @@ public class ImagePickerViewController: UIViewController, PHPhotoLibraryChangeOb
 
     func imagePickerPhotosViewControllerAssetDidLongTap(viewController: ImagePickerPhotosViewController, asset: PHAsset, cell: ImagePickerPhotoCell) {
         self.delegate?.imagePickerViewControllerAssetDidLongTap?(self, asset: asset, cell: cell)
+    }
+
+    func imagePickerPhotosViewControllerAlbumOpened(viewController: ImagePickerPhotosViewController, album: PHAssetCollection) {
+        self.delegate?.imagePickerViewControllerAlbumOpened?(self, album: album)
     }
 
     // MARK: ImagePickerSourcesViewDelegate

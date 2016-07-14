@@ -15,6 +15,7 @@ import UIKit
     func imagePickerPhotosViewControllerAssetDidSelect(viewController: ImagePickerPhotosViewController, asset: PHAsset, cell: ImagePickerPhotoCell)
     func imagePickerPhotosViewControllerAssetDidDeselect(viewController: ImagePickerPhotosViewController, asset: PHAsset, cell: ImagePickerPhotoCell)
     func imagePickerPhotosViewControllerAssetDidLongTap(viewController: ImagePickerPhotosViewController, asset: PHAsset, cell: ImagePickerPhotoCell)
+    optional func imagePickerPhotosViewControllerAlbumOpened(viewController: ImagePickerPhotosViewController, album: PHAssetCollection)
 }
 
 class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObserver, UICollectionViewDelegate,
@@ -102,6 +103,8 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
         self.photosDataSource.fetchData(self.album)
         PHPhotoLibrary.sharedPhotoLibrary().registerChangeObserver(self)
         self.collectionView.reloadData()
+
+        self.delegate?.imagePickerPhotosViewControllerAlbumOpened?(self, album: self.album)
     }
 
     override func viewWillAppear(animated: Bool) {

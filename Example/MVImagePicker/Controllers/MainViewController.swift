@@ -203,7 +203,9 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
     }
 
     func imagePickerViewControllerAssetDidRemove(viewController: ImagePickerViewController, asset: PHAsset) {
-        self.removePhoto(asset)
+        if asset == self.currentAsset {
+            self.removePhoto(asset)
+        }
     }
 
     func imagePickerViewControllerAssetDidSelect(viewController: ImagePickerViewController, asset: PHAsset, cell: ImagePickerPhotoCell) {
@@ -211,7 +213,7 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
     }
 
     func imagePickerViewControllerAssetDidDeselect(viewController: ImagePickerViewController, asset: PHAsset, cell: ImagePickerPhotoCell) {
-        self.removePhoto(asset)
+        // ...
     }
 
     func imagePickerViewControllerAssetDidLongTap(viewController: ImagePickerViewController, asset: PHAsset, cell: ImagePickerPhotoCell) {
@@ -229,6 +231,12 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
                 imageViewer.showFromViewController(self, transition: JTSImageViewControllerTransition.FromOriginalPosition)
             }
         })
+    }
+
+    func imagePickerViewControllerAlbumOpened(viewController: ImagePickerViewController, album: PHAssetCollection) {
+        if let ast = self.currentAsset {
+            self.imagePickerViewController.selectAsset(ast)
+        }
     }
 
     // MARK: ImagePickerViewControllerScrollDelegate
