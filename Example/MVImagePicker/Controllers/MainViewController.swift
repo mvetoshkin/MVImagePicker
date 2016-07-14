@@ -110,6 +110,7 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.imagePickerViewCurrentTopOffset = self.selectedImageWrapperViewHeight
         self.title = "MVImagePicker"
         self.view.backgroundColor = UIColor.whiteColor()
 
@@ -271,7 +272,6 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
         let location = gesture.locationInView(self.imagePickerView)
         let currentPoint = gesture.translationInView(gesture.view!)
 
-
         if gesture.state == UIGestureRecognizerState.Began {
             Statics.lastYPoint = 0
             Statics.lastDelta = 0
@@ -296,7 +296,7 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
         let delta = Statics.lastYPoint - currentPoint.y
         let newOffset = self.imagePickerViewCurrentTopOffset - delta
 
-        if newOffset >= self.imagePickerViewMinOffset && newOffset <= self.imagePickerViewCurrentTopOffset {
+        if newOffset >= self.imagePickerViewMinOffset && newOffset <= self.selectedImageWrapperViewHeight {
             self.setViewsOffset(newOffset, updateLayout: true, animated: false)
             Statics.wasMoved = true
         } else {
@@ -310,7 +310,7 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate, ImagePi
     // MARK: Private methods
 
     private func setViewsOffset(newOffset: CGFloat?, updateLayout: Bool = true, animated: Bool = true) {
-        self.imagePickerViewCurrentTopOffset = selectedImageWrapperViewHeight
+        self.imagePickerViewCurrentTopOffset = self.selectedImageWrapperViewHeight
         if let offset = newOffset {
             self.imagePickerViewCurrentTopOffset = offset
         }
