@@ -211,13 +211,13 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
 
     func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
         let asset = self.photosDataSource.fetchResult![indexPath.item] as! PHAsset
-        let cell = self.collectionView.cellForItemAtIndexPath(indexPath) as! ImagePickerPhotoCell
-
         if let idx = self.photosDataSource.selectedAssets.indexOf(asset) {
             self.photosDataSource.selectedAssets.removeAtIndex(idx)
         }
 
-        self.delegate?.imagePickerPhotosViewControllerAssetDidDeselect(self, asset: asset, cell: cell)
+        if let cell = self.collectionView.cellForItemAtIndexPath(indexPath) as? ImagePickerPhotoCell {
+            self.delegate?.imagePickerPhotosViewControllerAssetDidDeselect(self, asset: asset, cell: cell)
+        }
     }
 
     // MARK: UICollectionViewDelegateFlowLayout
