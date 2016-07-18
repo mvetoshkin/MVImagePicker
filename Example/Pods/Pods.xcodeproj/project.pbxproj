@@ -7,79 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005B3174209C1DFD8D6D27ACB81C84FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1585E5FEB75C32FDEC75F7616F3BD5DE /* QuartzCore.framework */; };
-		026EB2F4C25659F3D1E9B2E17C7DE9E1 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E429DFBD6832070DDC8C4B47257CBF88 /* Debugging.swift */; };
+		005B3174209C1DFD8D6D27ACB81C84FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81957949F54CDC102879C8129A691B8C /* QuartzCore.framework */; };
+		0112E8805542B784A24D531FAA0F88CD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C831025B565EB52D57253C142507D6C3 /* SnapKit.framework */; };
 		03900FD6BBDCB482748C9D009ABC26B7 /* Pods-MVImagePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 523FE64D9D4C54D002DD9E7A8F44E776 /* Pods-MVImagePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05ADD282485656C607F2055853076AD4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D39BA3C71CE3CEAE0163F4DCE0C99F5F /* SVProgressHUD.bundle */; };
-		0B4BC428FCDEF42C63987AB1FCD9DF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */; };
-		0B7A916D1034F11E1E17605F2B613909 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B30D4C4BDCE9185C2519E3DDE8E2CE /* UIView+Extension.swift */; };
 		0ED9FDCD6D833760F39BB93F6A3B7885 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9417E0ED651679B1D7A7A267DC454D /* JTSAnimatedGIFUtility.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		0FAD072D4C5438D00E493DFCCFE32CA6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8662A18A247F271390F915D0BDEB84 /* Constraint.swift */; };
 		100F00AE74DF3E51103F576B177D73F4 /* JTSImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B826BEBB0BEB8AB26BC5E0922C61F2E /* JTSImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1200755112C6C8E1263158948717710E /* imagepicker-next.png in Resources */ = {isa = PBXBuildFile; fileRef = F354E0BB18F30F9343688963F715713D /* imagepicker-next.png */; };
-		1378987D0D0A06B58E85D87A5F21D98F /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65213DB58BD7A68D5C4C2ABFF472EF /* ImagePickerViewController.swift */; };
-		14D8A5ABFF29A133CE5B67B2306D0AF0 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A79DF190B6BCB12D257F25A33F39CFC9 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119DEA1A7FC514D14E1016FB94637A51 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFFA6AFA25F9250790EE9CCB7398B3 /* LayoutConstraint.swift */; };
 		1786DD6368EB1C8963ED26FA803CEC6E /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0777C7CCC141D1EB11AE410A24D51D /* JTSSimpleImageDownloader.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
-		19FF9A0A5BBF45223BABAC717368C771 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A694D331DBB530C8A872AF3DF715472 /* ConstraintDescription.swift */; };
+		1E03039418E253C13BE67F3AC2D2E5EE /* MVImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D37B06D9A2EEB6CBE3FB42F41F0652D /* MVImagePicker-dummy.m */; };
+		1F7EA613263A57C0BF085C8B22707B8B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B30D4C4BDCE9185C2519E3DDE8E2CE /* UIView+Extension.swift */; };
 		22289EC198955DEDB900A28B5C6A7B6D /* JTSAnimatedGIFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 218E32068123573BBF8EB42350A8C0A3 /* JTSAnimatedGIFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		234A2F15B44DA0C2C5A818FFEB2330D0 /* JTSImageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A082183DB06CA6E38B92588D838844B /* JTSImageViewController-dummy.m */; };
 		25690DF1BB0725785AEDA7680B25AE64 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D715B59BBCDD455A2F32C73A9628272 /* JTSImageViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
-		27068A5585184C5100604DD52E380987 /* PhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E30D54116911CE7B133910C72EC0A /* PhotosController.swift */; };
+		2AC0BE136BA9C63FAA984708145D777C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174E2C115439B55D3D772135FDA3D19 /* ConstraintRelation.swift */; };
 		2F751006B3406200D9B7D996742A3BF3 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64927FCE4C3D45A49E623D39B2EA564 /* UIApplication+JTSImageViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		30026C34779F51325333E6C42C82A868 /* AccessDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D4272E54FA1FE08481542DC5F9874 /* AccessDeniedView.swift */; };
+		30AAF4D70803462735C107C8318966F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */; };
+		31CF5169E62EE2BB60A4ADA42E8217CB /* PhotoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4D8E749EA7DC029C8044712B9E84B /* PhotoCellView.swift */; };
+		31DC7222135C25153695328A9D83D955 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F6DF5C6CF70632FB1786FF3DAC493 /* ConstraintMaker.swift */; };
+		31EC3473A33205D481EF1DE29C2EF957 /* MVImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBBA93CB3B95FA6A0C6CF9601E44E9 /* MVImagePicker.bundle */; };
+		3366F7FA62F003D9E254699B379CA505 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C5D7B6E38BECC371CD270DE0ABD50 /* SnapKit-dummy.m */; };
+		3B1AD4280524A92229F747FF50414D7A /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65213DB58BD7A68D5C4C2ABFF472EF /* ImagePickerViewController.swift */; };
+		3C829A4F24FAD52D0A9EFC29E14A6814 /* AlbumCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1A27E7469DAE4017D624E3E57E5272 /* AlbumCellView.swift */; };
 		3D9249EF5088E610496EAC89DBBB883F /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA1993F132C7EA1119237FDAA7EF9B /* JTSImageInfo.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
-		42D7D85ED690688F4656B8A16FC2C66C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */; };
+		3F5844EE1EDEB4DE6A52816728DCC1DC /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A694D331DBB530C8A872AF3DF715472 /* ConstraintDescription.swift */; };
+		41B3CECB285AC55CCF85877096009219 /* PhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31A0694BA7E2EDCB27ADC33552533D /* PhotosDataSource.swift */; };
+		422D5D5DF0D1273377E4EA4764F8476B /* PhotosHeaderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D7AE01629351E0040D0811AE72695 /* PhotosHeaderCellView.swift */; };
+		42D7D85ED690688F4656B8A16FC2C66C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */; };
+		42EA171980EBDB38FEF984D83554CDBE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2C5113870E06046809DBC9CAF8D86 /* UIColor+Extension.swift */; };
 		43F1E21C0A78B7F8F701E1462A29B460 /* Pods-MVImagePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3E2DD0E3930D174A8F8B91428985F2 /* Pods-MVImagePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A2FE210D83045446070A4AA8A8CD0F5 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C5D7B6E38BECC371CD270DE0ABD50 /* SnapKit-dummy.m */; };
+		45F0517A92DD20EF171F61D927B231BA /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C2B67A10153D4D42266D25FAA606C /* ConstraintAttributes.swift */; };
+		4C8507DF32F23B8F2EF7BFDCA55D724A /* MVImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8163B959992FC9CBD6BC1F3EB06C88D /* MVImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50787C0BE426EC5C02AE3E521A4CE72E /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A79DF190B6BCB12D257F25A33F39CFC9 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		517560494E81D7A3A352C776C322FF51 /* JTSImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4091DACC729078B99F1C60852FBD5F7 /* JTSImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		539DEA1C2DA18867C4FDEF5B95CBE322 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56143DD6DF0CC3B857C6D4FD33AE8EFD /* ImageIO.framework */; };
-		57C5AC58F1A004286DAF26E0DF522B60 /* imagepicker-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 68595DDE317D0453FF3FE8D645247ACF /* imagepicker-checkmark.png */; };
-		58C202D00DEBC4FD3224459342F629CD /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC930FD6B0B99625DC78D28DCB9FABB /* ConstraintItem.swift */; };
-		59B86EED3A67940804BC8B155403EB5A /* NoPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABA5D83EAD4005C0C0E023F3D3B125 /* NoPhotosView.swift */; };
-		5C4A96679CB7FFC4341E3318971EDCB1 /* imagepicker-library.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6193905C3A30652FAB5A3FC2306B6E /* imagepicker-library.png */; };
-		62D40DB6D001E526E6DB691DDF4C95C9 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86733A335C086A25CAE75B361EC665 /* SnapKit.swift */; };
+		539DEA1C2DA18867C4FDEF5B95CBE322 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F04F9AD98B441C4A14317283A5BE50 /* ImageIO.framework */; };
+		554205485642237CFD126D35A747248F /* imagepicker-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 68595DDE317D0453FF3FE8D645247ACF /* imagepicker-checkmark.png */; };
+		5F7A46CE93C19AF20D99FF37145B3492 /* imagepicker-library.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6193905C3A30652FAB5A3FC2306B6E /* imagepicker-library.png */; };
 		633F33B90B61B99C6206A5E13FBE13E0 /* UIApplication+JTSImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E441CDFA62C7E6E22527BE7DE2AB1A /* UIApplication+JTSImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		652702650678175FF84CD667E2D4B8DB /* PhotosHeaderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D7AE01629351E0040D0811AE72695 /* PhotosHeaderCellView.swift */; };
-		6AFE2A37941CDE0BCBA0CD0F2E1F5923 /* MVImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8163B959992FC9CBD6BC1F3EB06C88D /* MVImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F460B8B510136D8311C88F17458D3EE /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417A6240797281357BB1035852531A0 /* SourcesView.swift */; };
-		772EA2A7F9AB16F860C5691D309579AB /* PhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31A0694BA7E2EDCB27ADC33552533D /* PhotosDataSource.swift */; };
+		658D7AFBC76E46E39EF622167605EAE3 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417A6240797281357BB1035852531A0 /* SourcesView.swift */; };
+		7474EDB7C657CD54184384E343CBC42C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEE09F586E7C4B840E0F78ABC2523DC /* Photos.framework */; };
 		77AB505D363F0E6A08740FD5074E0AAB /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D8CF2F997333A89CD407F3FED7F82D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D440A6A3A8795B9C4423C99FD164178 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AA0CAF1B5CEB2E3DEAAD430A9A459 /* AlbumsViewController.swift */; };
-		7E8ED19D956B7AD75BB773C5DB80775E /* AccessDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D4272E54FA1FE08481542DC5F9874 /* AccessDeniedView.swift */; };
-		8DD51300997D67A77F685B6F161F09CB /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652429442DB7AA99E24A9405F441CC5 /* UIImage+Extension.swift */; };
-		9019449ADE0B092470F4B0914A91F135 /* imagepicker-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7F835C2B90F87F0B2D0C9245007166 /* imagepicker-camera.png */; };
-		96C6C113139330BC1B7C7B84B33BF355 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174E2C115439B55D3D772135FDA3D19 /* ConstraintRelation.swift */; };
+		7E785292A01884ACFD964B7910929A56 /* AlbumsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3875685C52FF68B6F6B279AF3474218 /* AlbumsDataSource.swift */; };
+		815709E36BFC6CF0C317D525013C1EEF /* imagepicker-next.png in Resources */ = {isa = PBXBuildFile; fileRef = F354E0BB18F30F9343688963F715713D /* imagepicker-next.png */; };
+		83579031A37343125C756A25C54C952A /* PhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E30D54116911CE7B133910C72EC0A /* PhotosController.swift */; };
+		90B7FF3DF9F714F898EC853AAD881E08 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174DD35C3A0B1FE40A59D805419AFE6F /* ViewController+SnapKit.swift */; };
 		96FF08C7D4834EC544263B0C52506DD8 /* UIImage+JTSImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB328BBE0FBD969D62B3C24BDFC3691 /* UIImage+JTSImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A83BBDDD7172281AABF3A8A9A56837A /* MVImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBBA93CB3B95FA6A0C6CF9601E44E9 /* MVImagePicker.bundle */; };
-		9BE8B0074564C8B2ABBA4F232AA42FEB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2C5113870E06046809DBC9CAF8D86 /* UIColor+Extension.swift */; };
+		992F22BDA42340D885AFFD5D09DBE2BF /* imagepicker-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA039C8BEB394A6AD84A67767E148CA /* imagepicker-back.png */; };
+		99CF88A1D15A042EB4408FAF5FE74110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */; };
 		9D0EE1C34D594848C76ABCACC2D1065B /* Pods-MVImagePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA966FF72ED458B88E8973F9744B9D26 /* Pods-MVImagePicker_Example-dummy.m */; };
 		9DBD399244772C0AB40A1FF903030A1A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAC1D55947967CB5B14368496BED54 /* SVIndefiniteAnimatedView.m */; };
-		9E32B71F8978A47C306F1EFF715D7764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */; };
-		9E90E712DBA39C2E37FFC651675319F6 /* AlbumsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3875685C52FF68B6F6B279AF3474218 /* AlbumsDataSource.swift */; };
-		A16347F4309E832A5BD41146DFB268C0 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8662A18A247F271390F915D0BDEB84 /* Constraint.swift */; };
-		AB5ECC2D597DA15D6F0BC67A2BED29D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */; };
+		9E32B71F8978A47C306F1EFF715D7764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */; };
+		9E6D7E0DA0BC1542A87361D67C380043 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3D1A00A7F37416E53351328DC8F7E /* EdgeInsets.swift */; };
+		A42D561B5EBA993A4F2BE34E4FC74BBB /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AA0CAF1B5CEB2E3DEAAD430A9A459 /* AlbumsViewController.swift */; };
+		A59D790E9289A552DF38C3FAC43F3D49 /* NoPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABA5D83EAD4005C0C0E023F3D3B125 /* NoPhotosView.swift */; };
+		A71A75276597A3E3C943454D920CB64E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652429442DB7AA99E24A9405F441CC5 /* UIImage+Extension.swift */; };
+		AB5ECC2D597DA15D6F0BC67A2BED29D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */; };
 		B712E5087562334EAD9F6C34CC2BD610 /* Pods-MVImagePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B06A004FFA71DB5A3A21F1CE8B1F2C01 /* Pods-MVImagePicker_Tests-dummy.m */; };
-		B7D1115C9CFDB0F33960FDEBFC9A10E8 /* NSIndexSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD560A7FDFF316D0CC75E9484EB7D5D /* NSIndexSet+Extension.swift */; };
-		C61C6CC67A0338AF1F54B8008A5A182A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C2B67A10153D4D42266D25FAA606C /* ConstraintAttributes.swift */; };
-		CA039F753AE70C6D64B3D06A31257943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */; };
-		CA10974094738F5BE5B853939E2DAF65 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE62FDBB341D642BF3EDD01456DD7F9 /* SnapKit.framework */; };
-		CB429D957E2A2F354B56FE1D6A5939BD /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF707A2A09D28D43A0E632C4B6E1CF0 /* View+SnapKit.swift */; };
-		CC723B46EF6B6C52D0FA641005815758 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826542EFC1FDF4E50918A75F384CAA82 /* Accelerate.framework */; };
-		D5F626BE9F8153D8CEDDCF2D3FE6596A /* MVImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D37B06D9A2EEB6CBE3FB42F41F0652D /* MVImagePicker-dummy.m */; };
-		D8963FBCF493286CC7EF939272CD625B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10029AF5CCA2FA53322FE6D6BA19FB6E /* UIKit.framework */; };
-		DAC52DD01729B44EA8093DC2EE1ED6B1 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3D1A00A7F37416E53351328DC8F7E /* EdgeInsets.swift */; };
+		BD96B478DBC9341CB2E4E4603C32C468 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86733A335C086A25CAE75B361EC665 /* SnapKit.swift */; };
+		C9F43BE66FE485DB8CBFEB16134C2E8A /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E429DFBD6832070DDC8C4B47257CBF88 /* Debugging.swift */; };
+		CC723B46EF6B6C52D0FA641005815758 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17464260A6E63218B45F81A62E10FEEE /* Accelerate.framework */; };
+		D8963FBCF493286CC7EF939272CD625B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DB2478CB4BC6877D304E9EE72FA26 /* UIKit.framework */; };
 		DB90027D6022CFE71BFAB9D67C7B924B /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5200F4F2CE4FD85314B80CB7D7B6A2FA /* UIImage+JTSImageEffects.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
 		DCBC26A987E3574FE00E071CCB565017 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C153DF2E20035894C8111290187C0 /* SVProgressHUD.m */; };
-		DDFB1990179FAEA6E8D04E5A8C924E17 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174DD35C3A0B1FE40A59D805419AFE6F /* ViewController+SnapKit.swift */; };
-		DF874042F2538B936EB88906CB1DBABE /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F6DF5C6CF70632FB1786FF3DAC493 /* ConstraintMaker.swift */; };
+		DD1453A37A9FE01EDF5E96AFFEF14A9D /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF707A2A09D28D43A0E632C4B6E1CF0 /* View+SnapKit.swift */; };
 		E1F64FED1CF4F1AADF8A57697E7A24AF /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4311E1FBCC3F59103DEF6DE646999071 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E903C81715BA4EC7F5A7372A32CB6EB9 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFFA6AFA25F9250790EE9CCB7398B3 /* LayoutConstraint.swift */; };
-		E93F6456459630AA508BF3CBB08848D1 /* PhotoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4D8E749EA7DC029C8044712B9E84B /* PhotoCellView.swift */; };
-		ED52CC90B211A7963593E7176886C20B /* imagepicker-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA039C8BEB394A6AD84A67767E148CA /* imagepicker-back.png */; };
-		F06243CD710F50A754218D522B31A750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */; };
+		E277E03BB53059F51A9ED6A8207478F7 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC930FD6B0B99625DC78D28DCB9FABB /* ConstraintItem.swift */; };
+		E56089844DAB601E0A1183C797F78E72 /* imagepicker-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7F835C2B90F87F0B2D0C9245007166 /* imagepicker-camera.png */; };
+		F06243CD710F50A754218D522B31A750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */; };
 		F29903A5C7FDCC9DB68E094D2125C185 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979C8FFFDCF03A2815360975CC642F4D /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2CB823CE1B9C5E9272081C2F1140342 /* AlbumCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1A27E7469DAE4017D624E3E57E5272 /* AlbumCellView.swift */; };
 		F2FE2EC928C0D880EC074D6FE520B532 /* JTSImageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 668373FF59DC60A6DAD5A0C825CA0233 /* JTSImageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F508031DE94759906A6C7C0A323DCA9A /* JTSSimpleImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 843F1CC3DD24A576FF8F2D2D83DFB8CA /* JTSSimpleImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F68C29F6800707A9A0EECBBD7010B864 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F103E535CC844AA989656295B2AEC /* SVProgressHUD-dummy.m */; };
+		FC965BE80B5095D5CA08AA64F7449907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DB2478CB4BC6877D304E9EE72FA26 /* UIKit.framework */; };
+		FEA36D93514FAD633095F5085E470F32 /* NSIndexSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD560A7FDFF316D0CC75E9484EB7D5D /* NSIndexSet+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +92,12 @@
 			remoteGlobalIDString = FAE26C46CFBAF39E4C96ABF16B93D9FC;
 			remoteInfo = JTSImageViewController;
 		};
-		A2B5AD7C3C93C4D28CA857396CC54D2F /* PBXContainerItemProxy */ = {
+		A605C9B115994B64D2C52B7E473E0B16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9C4C8AFC36B86EC2AF8EFE950EAE2FC;
-			remoteInfo = "MVImagePicker-MVImagePicker";
+			remoteGlobalIDString = C602AC72C6555EDEB70699FD520256B3;
+			remoteInfo = SnapKit;
 		};
 		D32813A60B50A87A97E549A4B00CEB30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -104,26 +106,26 @@
 			remoteGlobalIDString = 12DBBFBC8F78CD41D8CF0CA7DAAFDD3D;
 			remoteInfo = SVProgressHUD;
 		};
-		E6100A2D0367CA5E8EC52B094E262397 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E82AC597B67B755D8B6DFFEC9D45923;
-			remoteInfo = SnapKit;
-		};
 		ED5A59FD12AF6C2043A9259168DFCEFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E82AC597B67B755D8B6DFFEC9D45923;
+			remoteGlobalIDString = C602AC72C6555EDEB70699FD520256B3;
 			remoteInfo = SnapKit;
 		};
 		F1BF9151D3E29B722816E76BE6D84BA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD36ED76AC92ABAACCBACE03B8459AC4;
+			remoteGlobalIDString = 73F1D0D1D253536C6DA3548DE24B8FBF;
 			remoteInfo = MVImagePicker;
+		};
+		F3E69DFD67FE1F1E301A78437107D1C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AE01929AB655C1E9C0E5B52361C34A;
+			remoteInfo = "MVImagePicker-MVImagePicker";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -135,11 +137,10 @@
 		0D37B06D9A2EEB6CBE3FB42F41F0652D /* MVImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MVImagePicker-dummy.m"; sourceTree = "<group>"; };
 		0EE7844D766AA7D884EA6E4B5AF05804 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
 		0F0DC30C44AFB9C36D4F7F0065F4AADE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10029AF5CCA2FA53322FE6D6BA19FB6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		106741D8DBE7C31BC51A3A03FF464AF3 /* Pods_MVImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1174E2C115439B55D3D772135FDA3D19 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		1417A6240797281357BB1035852531A0 /* SourcesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
-		1585E5FEB75C32FDEC75F7616F3BD5DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		17464260A6E63218B45F81A62E10FEEE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		174DD35C3A0B1FE40A59D805419AFE6F /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
 		213857D825F7DCEF984FF3BB438B1F19 /* Pods-MVImagePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVImagePicker_Example-resources.sh"; sourceTree = "<group>"; };
 		218E32068123573BBF8EB42350A8C0A3 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSAnimatedGIFUtility.h; path = Source/JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
@@ -155,18 +156,18 @@
 		3A694D331DBB530C8A872AF3DF715472 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		3BA039C8BEB394A6AD84A67767E148CA /* imagepicker-back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "imagepicker-back.png"; sourceTree = "<group>"; };
 		3D715B59BBCDD455A2F32C73A9628272 /* JTSImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSImageViewController.m; path = Source/JTSImageViewController.m; sourceTree = "<group>"; };
-		3EE62FDBB341D642BF3EDD01456DD7F9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFAC1D55947967CB5B14368496BED54 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		4036CC55AE98BA960509E05D8FCB7364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4311E1FBCC3F59103DEF6DE646999071 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		4525F0FEFCC6ECE889824087D1A78974 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		47F04F9AD98B441C4A14317283A5BE50 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		4ACA1993F132C7EA1119237FDAA7EF9B /* JTSImageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSImageInfo.m; path = Source/JTSImageInfo.m; sourceTree = "<group>"; };
 		4B826BEBB0BEB8AB26BC5E0922C61F2E /* JTSImageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSImageInfo.h; path = Source/JTSImageInfo.h; sourceTree = "<group>"; };
 		4E8662A18A247F271390F915D0BDEB84 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		517F6DF5C6CF70632FB1786FF3DAC493 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		5200F4F2CE4FD85314B80CB7D7B6A2FA /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JTSImageEffects.m"; path = "Source/UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		520DB2478CB4BC6877D304E9EE72FA26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		523FE64D9D4C54D002DD9E7A8F44E776 /* Pods-MVImagePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVImagePicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		56143DD6DF0CC3B857C6D4FD33AE8EFD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		5A082183DB06CA6E38B92588D838844B /* JTSImageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTSImageViewController-dummy.m"; sourceTree = "<group>"; };
 		668373FF59DC60A6DAD5A0C825CA0233 /* JTSImageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTSImageViewController-umbrella.h"; sourceTree = "<group>"; };
 		68595DDE317D0453FF3FE8D645247ACF /* imagepicker-checkmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "imagepicker-checkmark.png"; sourceTree = "<group>"; };
@@ -184,13 +185,14 @@
 		7DFAB0E93611DE22DD618F09C9C06E3B /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		7EB366E9ECF005643A5EBE27B4921C7B /* JTSImageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTSImageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECBBA93CB3B95FA6A0C6CF9601E44E9 /* MVImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		826542EFC1FDF4E50918A75F384CAA82 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		81957949F54CDC102879C8129A691B8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		843F1CC3DD24A576FF8F2D2D83DFB8CA /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSSimpleImageDownloader.h; path = Source/JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
 		851D4272E54FA1FE08481542DC5F9874 /* AccessDeniedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AccessDeniedView.swift; sourceTree = "<group>"; };
 		85A3D1A00A7F37416E53351328DC8F7E /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
 		8652429442DB7AA99E24A9405F441CC5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		8BDAC0B935B9899EA168E200FCAF1FFB /* JTSImageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTSImageViewController.xcconfig; sourceTree = "<group>"; };
 		8C532BF55331E17B2592CA41DB2D6C04 /* Pods-MVImagePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MVImagePicker_Example.modulemap"; sourceTree = "<group>"; };
+		9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		947D7AE01629351E0040D0811AE72695 /* PhotosHeaderCellView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotosHeaderCellView.swift; sourceTree = "<group>"; };
 		95CC79721DC550B05F8A9FCB76D03794 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,9 +218,10 @@
 		C0E2D6191A2D25C76AD7007AE404BAE5 /* JTSImageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTSImageViewController.modulemap; sourceTree = "<group>"; };
 		C18081E03D64C3CB6E3DE6DEACAF554C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C203A39DDF1322EFABB71A3160382034 /* Pods-MVImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C831025B565EB52D57253C142507D6C3 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D8CF2F997333A89CD407F3FED7F82D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF63F3D9E6DDFEE99FB69869E9E0D063 /* MVImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MVImagePicker.modulemap; sourceTree = "<group>"; };
+		CFEE09F586E7C4B840E0F78ABC2523DC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
 		D236FC271B2A414CC49731B03934648C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39BA3C71CE3CEAE0163F4DCE0C99F5F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		D4091DACC729078B99F1C60852FBD5F7 /* JTSImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSImageViewController.h; path = Source/JTSImageViewController.h; sourceTree = "<group>"; };
@@ -239,6 +242,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		198E00ABACEBBDE38BFBC2A9553033AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CF88A1D15A042EB4408FAF5FE74110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E6F1DCB8ABE6D4637764D9F6EDEFC97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,11 +270,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F76F865D6DACC57825163AB3BBE759C /* Frameworks */ = {
+		802834921F75A4E667FE51EDA1B3A930 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4BC428FCDEF42C63987AB1FCD9DF0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939B73AAA75D71D1962C0E0A252ACAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AAF4D70803462735C107C8318966F7 /* Foundation.framework in Frameworks */,
+				7474EDB7C657CD54184384E343CBC42C /* Photos.framework in Frameworks */,
+				0112E8805542B784A24D531FAA0F88CD /* SnapKit.framework in Frameworks */,
+				FC965BE80B5095D5CA08AA64F7449907 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +296,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AEFE200EC47FB012B14EE29DD840ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB10335FE0E7004D2EF6D430688F4CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,18 +304,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D40BC30DECFBA9015804CEA0C910F114 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA039F753AE70C6D64B3D06A31257943 /* Foundation.framework in Frameworks */,
-				CA10974094738F5BE5B853939E2DAF65 /* SnapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01C90807C6B12575E1329B0AD071F14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C831025B565EB52D57253C142507D6C3 /* SnapKit.framework */,
+				A88A5A01D4A6804C0BEC6A220874867B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0632A7CF765B9CA4176AF83F2DEBB819 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,7 +502,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				37376B8D4DE84BDA352D64A0E95B7F48 /* Development Pods */,
-				F31E0F1558C36E41A3998B99E809EFAF /* Frameworks */,
+				01C90807C6B12575E1329B0AD071F14E /* Frameworks */,
 				E85D78A76C59C3703A12F1C1EC08A775 /* Pods */,
 				18B1187687BC68F1C8912C22B51EDD8F /* Products */,
 				5ECD9BF98C0E7142DBFA55E4419508D7 /* Targets Support Files */,
@@ -530,6 +544,19 @@
 				D39BA3C71CE3CEAE0163F4DCE0C99F5F /* SVProgressHUD.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		A88A5A01D4A6804C0BEC6A220874867B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17464260A6E63218B45F81A62E10FEEE /* Accelerate.framework */,
+				9029FE205AE5CB577769B5ACCDCA8043 /* Foundation.framework */,
+				47F04F9AD98B441C4A14317283A5BE50 /* ImageIO.framework */,
+				CFEE09F586E7C4B840E0F78ABC2523DC /* Photos.framework */,
+				81957949F54CDC102879C8129A691B8C /* QuartzCore.framework */,
+				520DB2478CB4BC6877D304E9EE72FA26 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		AE8ACE96E0F7F6B8756F7E808E5CD8EB /* Pods-MVImagePicker_Example */ = {
@@ -578,18 +605,6 @@
 			path = MVImagePicker;
 			sourceTree = "<group>";
 		};
-		DD90EA17BFB11B29DFEE9BD9BFAE9644 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				826542EFC1FDF4E50918A75F384CAA82 /* Accelerate.framework */,
-				CD452BC9D3AAD27DA345E832B0DEEF22 /* Foundation.framework */,
-				56143DD6DF0CC3B857C6D4FD33AE8EFD /* ImageIO.framework */,
-				1585E5FEB75C32FDEC75F7616F3BD5DE /* QuartzCore.framework */,
-				10029AF5CCA2FA53322FE6D6BA19FB6E /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		E85D78A76C59C3703A12F1C1EC08A775 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -606,15 +621,6 @@
 				5564CF327CEDAA454C15B5E527A27DE4 /* Classes */,
 			);
 			path = MVImagePicker;
-			sourceTree = "<group>";
-		};
-		F31E0F1558C36E41A3998B99E809EFAF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3EE62FDBB341D642BF3EDD01456DD7F9 /* SnapKit.framework */,
-				DD90EA17BFB11B29DFEE9BD9BFAE9644 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F9D1FF87730D1F54B5490ECDF815BBE3 /* Support Files */ = {
@@ -652,11 +658,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BB4787580B6CB3380FD59C40236D851 /* Headers */ = {
+		808731EA0F2C8B5B7932F88368501687 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D8A5ABFF29A133CE5B67B2306D0AF0 /* SnapKit-umbrella.h in Headers */,
+				4C8507DF32F23B8F2EF7BFDCA55D724A /* MVImagePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,11 +680,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9A8A3A3ECB43502C43F1E6AE854AB8D /* Headers */ = {
+		DEC245A7A5755FD450AAE2BD13F00710 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AFE2A37941CDE0BCBA0CD0F2E1F5923 /* MVImagePicker-umbrella.h in Headers */,
+				50787C0BE426EC5C02AE3E521A4CE72E /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,13 +734,33 @@
 			productReference = 95CC79721DC550B05F8A9FCB76D03794 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7E82AC597B67B755D8B6DFFEC9D45923 /* SnapKit */ = {
+		73F1D0D1D253536C6DA3548DE24B8FBF /* MVImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAD6A7A8373A7832DE318C82DD789AF8 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = EDA0BFD145B749C4AAE7D275A4612863 /* Build configuration list for PBXNativeTarget "MVImagePicker" */;
 			buildPhases = (
-				193B03C341287ADD177F87193A7C34AF /* Sources */,
-				6F76F865D6DACC57825163AB3BBE759C /* Frameworks */,
-				8BB4787580B6CB3380FD59C40236D851 /* Headers */,
+				EE5E3B95D180A201FC6EACF850455A81 /* Sources */,
+				939B73AAA75D71D1962C0E0A252ACAED /* Frameworks */,
+				6668C457D8021A7D4F8D7EA864813908 /* Resources */,
+				808731EA0F2C8B5B7932F88368501687 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF04A5E3E3BA4C31ABFBAB56FA31F1A /* PBXTargetDependency */,
+				E581462A1DAC87BA84472205FC0AFADD /* PBXTargetDependency */,
+			);
+			name = MVImagePicker;
+			productName = MVImagePicker;
+			productReference = F79A4C99BB09A97FFF254475E7426219 /* MVImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C602AC72C6555EDEB70699FD520256B3 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F555958F745DEBF73BD93CBE4BD84BAF /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				FBB4434BEE4AF76DCD5A7016A08AD02A /* Sources */,
+				198E00ABACEBBDE38BFBC2A9553033AB /* Frameworks */,
+				DEC245A7A5755FD450AAE2BD13F00710 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -745,13 +771,13 @@
 			productReference = A3B1EE4FA7CA7CFC3706E8DDE80C6FD1 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9C4C8AFC36B86EC2AF8EFE950EAE2FC /* MVImagePicker-MVImagePicker */ = {
+		D4AE01929AB655C1E9C0E5B52361C34A /* MVImagePicker-MVImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB47DA477B877BCE9442757A899C69EC /* Build configuration list for PBXNativeTarget "MVImagePicker-MVImagePicker" */;
+			buildConfigurationList = 624F30BE71920BA975B6A54CFBFC320D /* Build configuration list for PBXNativeTarget "MVImagePicker-MVImagePicker" */;
 			buildPhases = (
-				3CD8B9C50FF883E756856518E22DF237 /* Sources */,
-				A9AEFE200EC47FB012B14EE29DD840ED /* Frameworks */,
-				3F469C5909D19C74EB984CE2AD272CC4 /* Resources */,
+				EF35D071BDC946E28F3BFB83603F9740 /* Sources */,
+				802834921F75A4E667FE51EDA1B3A930 /* Frameworks */,
+				B86A4EC707AF146FAB778D1C39CA118B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -761,26 +787,6 @@
 			productName = "MVImagePicker-MVImagePicker";
 			productReference = 7ECBBA93CB3B95FA6A0C6CF9601E44E9 /* MVImagePicker.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		DD36ED76AC92ABAACCBACE03B8459AC4 /* MVImagePicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18B7BDF375C6B30E291DFABB9E1F3F05 /* Build configuration list for PBXNativeTarget "MVImagePicker" */;
-			buildPhases = (
-				C17CB7E7CD2F0CF898101C09FD1DD052 /* Sources */,
-				D40BC30DECFBA9015804CEA0C910F114 /* Frameworks */,
-				F2B4C6B50B08B0C25A8CD008755610EB /* Resources */,
-				A9A8A3A3ECB43502C43F1E6AE854AB8D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFCDDD87CDCACD719E4336D077E66EFC /* PBXTargetDependency */,
-				BC6AF0287960A3192097104A75F813DA /* PBXTargetDependency */,
-			);
-			name = MVImagePicker;
-			productName = MVImagePicker;
-			productReference = F79A4C99BB09A97FFF254475E7426219 /* MVImagePicker.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		EB3D1D8A9C17AD2F7479CE51254A566A /* Pods-MVImagePicker_Example */ = {
 			isa = PBXNativeTarget;
@@ -842,29 +848,17 @@
 			projectRoot = "";
 			targets = (
 				FAE26C46CFBAF39E4C96ABF16B93D9FC /* JTSImageViewController */,
-				DD36ED76AC92ABAACCBACE03B8459AC4 /* MVImagePicker */,
-				D9C4C8AFC36B86EC2AF8EFE950EAE2FC /* MVImagePicker-MVImagePicker */,
+				73F1D0D1D253536C6DA3548DE24B8FBF /* MVImagePicker */,
+				D4AE01929AB655C1E9C0E5B52361C34A /* MVImagePicker-MVImagePicker */,
 				EB3D1D8A9C17AD2F7479CE51254A566A /* Pods-MVImagePicker_Example */,
 				0A842EF3615D066CC865005B6706B1F0 /* Pods-MVImagePicker_Tests */,
-				7E82AC597B67B755D8B6DFFEC9D45923 /* SnapKit */,
+				C602AC72C6555EDEB70699FD520256B3 /* SnapKit */,
 				12DBBFBC8F78CD41D8CF0CA7DAAFDD3D /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F469C5909D19C74EB984CE2AD272CC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED52CC90B211A7963593E7176886C20B /* imagepicker-back.png in Resources */,
-				9019449ADE0B092470F4B0914A91F135 /* imagepicker-camera.png in Resources */,
-				57C5AC58F1A004286DAF26E0DF522B60 /* imagepicker-checkmark.png in Resources */,
-				5C4A96679CB7FFC4341E3318971EDCB1 /* imagepicker-library.png in Resources */,
-				1200755112C6C8E1263158948717710E /* imagepicker-next.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63EA9B1AEA1660E97469B25D538F3B29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -873,11 +867,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2B4C6B50B08B0C25A8CD008755610EB /* Resources */ = {
+		6668C457D8021A7D4F8D7EA864813908 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A83BBDDD7172281AABF3A8A9A56837A /* MVImagePicker.bundle in Resources */,
+				31EC3473A33205D481EF1DE29C2EF957 /* MVImagePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86A4EC707AF146FAB778D1C39CA118B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992F22BDA42340D885AFFD5D09DBE2BF /* imagepicker-back.png in Resources */,
+				E56089844DAB601E0A1183C797F78E72 /* imagepicker-camera.png in Resources */,
+				554205485642237CFD126D35A747248F /* imagepicker-checkmark.png in Resources */,
+				5F7A46CE93C19AF20D99FF37145B3492 /* imagepicker-library.png in Resources */,
+				815709E36BFC6CF0C317D525013C1EEF /* imagepicker-next.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,33 +897,6 @@
 				9DBD399244772C0AB40A1FF903030A1A /* SVIndefiniteAnimatedView.m in Sources */,
 				F68C29F6800707A9A0EECBBD7010B864 /* SVProgressHUD-dummy.m in Sources */,
 				DCBC26A987E3574FE00E071CCB565017 /* SVProgressHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		193B03C341287ADD177F87193A7C34AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A16347F4309E832A5BD41146DFB268C0 /* Constraint.swift in Sources */,
-				C61C6CC67A0338AF1F54B8008A5A182A /* ConstraintAttributes.swift in Sources */,
-				19FF9A0A5BBF45223BABAC717368C771 /* ConstraintDescription.swift in Sources */,
-				58C202D00DEBC4FD3224459342F629CD /* ConstraintItem.swift in Sources */,
-				DF874042F2538B936EB88906CB1DBABE /* ConstraintMaker.swift in Sources */,
-				96C6C113139330BC1B7C7B84B33BF355 /* ConstraintRelation.swift in Sources */,
-				026EB2F4C25659F3D1E9B2E17C7DE9E1 /* Debugging.swift in Sources */,
-				DAC52DD01729B44EA8093DC2EE1ED6B1 /* EdgeInsets.swift in Sources */,
-				E903C81715BA4EC7F5A7372A32CB6EB9 /* LayoutConstraint.swift in Sources */,
-				4A2FE210D83045446070A4AA8A8CD0F5 /* SnapKit-dummy.m in Sources */,
-				62D40DB6D001E526E6DB691DDF4C95C9 /* SnapKit.swift in Sources */,
-				CB429D957E2A2F354B56FE1D6A5939BD /* View+SnapKit.swift in Sources */,
-				DDFB1990179FAEA6E8D04E5A8C924E17 /* ViewController+SnapKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CD8B9C50FF883E756856518E22DF237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -951,32 +930,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17CB7E7CD2F0CF898101C09FD1DD052 /* Sources */ = {
+		EE5E3B95D180A201FC6EACF850455A81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8ED19D956B7AD75BB773C5DB80775E /* AccessDeniedView.swift in Sources */,
-				F2CB823CE1B9C5E9272081C2F1140342 /* AlbumCellView.swift in Sources */,
-				9E90E712DBA39C2E37FFC651675319F6 /* AlbumsDataSource.swift in Sources */,
-				7D440A6A3A8795B9C4423C99FD164178 /* AlbumsViewController.swift in Sources */,
-				1378987D0D0A06B58E85D87A5F21D98F /* ImagePickerViewController.swift in Sources */,
-				D5F626BE9F8153D8CEDDCF2D3FE6596A /* MVImagePicker-dummy.m in Sources */,
-				59B86EED3A67940804BC8B155403EB5A /* NoPhotosView.swift in Sources */,
-				B7D1115C9CFDB0F33960FDEBFC9A10E8 /* NSIndexSet+Extension.swift in Sources */,
-				E93F6456459630AA508BF3CBB08848D1 /* PhotoCellView.swift in Sources */,
-				27068A5585184C5100604DD52E380987 /* PhotosController.swift in Sources */,
-				772EA2A7F9AB16F860C5691D309579AB /* PhotosDataSource.swift in Sources */,
-				652702650678175FF84CD667E2D4B8DB /* PhotosHeaderCellView.swift in Sources */,
-				6F460B8B510136D8311C88F17458D3EE /* SourcesView.swift in Sources */,
-				9BE8B0074564C8B2ABBA4F232AA42FEB /* UIColor+Extension.swift in Sources */,
-				8DD51300997D67A77F685B6F161F09CB /* UIImage+Extension.swift in Sources */,
-				0B7A916D1034F11E1E17605F2B613909 /* UIView+Extension.swift in Sources */,
+				30026C34779F51325333E6C42C82A868 /* AccessDeniedView.swift in Sources */,
+				3C829A4F24FAD52D0A9EFC29E14A6814 /* AlbumCellView.swift in Sources */,
+				7E785292A01884ACFD964B7910929A56 /* AlbumsDataSource.swift in Sources */,
+				A42D561B5EBA993A4F2BE34E4FC74BBB /* AlbumsViewController.swift in Sources */,
+				3B1AD4280524A92229F747FF50414D7A /* ImagePickerViewController.swift in Sources */,
+				1E03039418E253C13BE67F3AC2D2E5EE /* MVImagePicker-dummy.m in Sources */,
+				A59D790E9289A552DF38C3FAC43F3D49 /* NoPhotosView.swift in Sources */,
+				FEA36D93514FAD633095F5085E470F32 /* NSIndexSet+Extension.swift in Sources */,
+				31CF5169E62EE2BB60A4ADA42E8217CB /* PhotoCellView.swift in Sources */,
+				83579031A37343125C756A25C54C952A /* PhotosController.swift in Sources */,
+				41B3CECB285AC55CCF85877096009219 /* PhotosDataSource.swift in Sources */,
+				422D5D5DF0D1273377E4EA4764F8476B /* PhotosHeaderCellView.swift in Sources */,
+				658D7AFBC76E46E39EF622167605EAE3 /* SourcesView.swift in Sources */,
+				42EA171980EBDB38FEF984D83554CDBE /* UIColor+Extension.swift in Sources */,
+				A71A75276597A3E3C943454D920CB64E /* UIImage+Extension.swift in Sources */,
+				1F7EA613263A57C0BF085C8B22707B8B /* UIView+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF35D071BDC946E28F3BFB83603F9740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4434BEE4AF76DCD5A7016A08AD02A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAD072D4C5438D00E493DFCCFE32CA6 /* Constraint.swift in Sources */,
+				45F0517A92DD20EF171F61D927B231BA /* ConstraintAttributes.swift in Sources */,
+				3F5844EE1EDEB4DE6A52816728DCC1DC /* ConstraintDescription.swift in Sources */,
+				E277E03BB53059F51A9ED6A8207478F7 /* ConstraintItem.swift in Sources */,
+				31DC7222135C25153695328A9D83D955 /* ConstraintMaker.swift in Sources */,
+				2AC0BE136BA9C63FAA984708145D777C /* ConstraintRelation.swift in Sources */,
+				C9F43BE66FE485DB8CBFEB16134C2E8A /* Debugging.swift in Sources */,
+				9E6D7E0DA0BC1542A87361D67C380043 /* EdgeInsets.swift in Sources */,
+				119DEA1A7FC514D14E1016FB94637A51 /* LayoutConstraint.swift in Sources */,
+				3366F7FA62F003D9E254699B379CA505 /* SnapKit-dummy.m in Sources */,
+				BD96B478DBC9341CB2E4E4603C32C468 /* SnapKit.swift in Sources */,
+				DD1453A37A9FE01EDF5E96AFFEF14A9D /* View+SnapKit.swift in Sources */,
+				90B7FF3DF9F714F898EC853AAD881E08 /* ViewController+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3BF04A5E3E3BA4C31ABFBAB56FA31F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MVImagePicker-MVImagePicker";
+			target = D4AE01929AB655C1E9C0E5B52361C34A /* MVImagePicker-MVImagePicker */;
+			targetProxy = F3E69DFD67FE1F1E301A78437107D1C8 /* PBXContainerItemProxy */;
+		};
 		686952605354B77CB3B97548F0A10534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
@@ -986,20 +998,14 @@
 		B406DF2D02A28DBEC77B4BE2EA1A924B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MVImagePicker;
-			target = DD36ED76AC92ABAACCBACE03B8459AC4 /* MVImagePicker */;
+			target = 73F1D0D1D253536C6DA3548DE24B8FBF /* MVImagePicker */;
 			targetProxy = F1BF9151D3E29B722816E76BE6D84BA9 /* PBXContainerItemProxy */;
 		};
-		BC6AF0287960A3192097104A75F813DA /* PBXTargetDependency */ = {
+		E581462A1DAC87BA84472205FC0AFADD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			target = 7E82AC597B67B755D8B6DFFEC9D45923 /* SnapKit */;
-			targetProxy = E6100A2D0367CA5E8EC52B094E262397 /* PBXContainerItemProxy */;
-		};
-		CFCDDD87CDCACD719E4336D077E66EFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MVImagePicker-MVImagePicker";
-			target = D9C4C8AFC36B86EC2AF8EFE950EAE2FC /* MVImagePicker-MVImagePicker */;
-			targetProxy = A2B5AD7C3C93C4D28CA857396CC54D2F /* PBXContainerItemProxy */;
+			target = C602AC72C6555EDEB70699FD520256B3 /* SnapKit */;
+			targetProxy = A605C9B115994B64D2C52B7E473E0B16 /* PBXContainerItemProxy */;
 		};
 		E624C28438B18ED9A49E2D45504C1EDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1010,7 +1016,7 @@
 		F1499B1576A0128ECB51CF1C7888EBBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			target = 7E82AC597B67B755D8B6DFFEC9D45923 /* SnapKit */;
+			target = C602AC72C6555EDEB70699FD520256B3 /* SnapKit */;
 			targetProxy = ED5A59FD12AF6C2043A9259168DFCEFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1054,6 +1060,35 @@
 			};
 			name = Release;
 		};
+		14824B0FB67564583F1F0D20818899B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MVImagePicker/MVImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MVImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MVImagePicker/MVImagePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MVImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		179AD488AC914FE5B0523D964FEC1C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA998382BD0EAB624822538B35B4AA39 /* Pods-MVImagePicker_Tests.debug.xcconfig */;
@@ -1084,6 +1119,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28720D21D11213E8E4CFAB75A288F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MVImagePicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MVImagePicker/ResourceBundle-MVImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MVImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1120,7 +1172,36 @@
 			};
 			name = Release;
 		};
-		2AEFB020AD0EA2191E14384AB2148A8A /* Release */ = {
+		29FCF90DE312EBCACF8E49FD760A4BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE7844D766AA7D884EA6E4B5AF05804 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F01C8F52A939B9D83E13A69AE18C2D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
 			buildSettings = {
@@ -1136,6 +1217,36 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		A2F54AA0D12EA78AE44CA30C0978344B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MVImagePicker/MVImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MVImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MVImagePicker/MVImagePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MVImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A40607298C0D84EE184226845A8F11E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1258,36 +1369,6 @@
 			};
 			name = Release;
 		};
-		B3B7B21A9E09CF1AE6572A49F03495C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EE7844D766AA7D884EA6E4B5AF05804 /* SnapKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C04A1235785028D2456EE8289D641E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BB2A4100E778DD5A620BC1D3068D31E /* SVProgressHUD.xcconfig */;
@@ -1311,36 +1392,6 @@
 				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CE6318CB710AFDE562450C8DCEDB2D32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MVImagePicker/MVImagePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MVImagePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MVImagePicker/MVImagePicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MVImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1422,42 +1473,13 @@
 			};
 			name = Debug;
 		};
-		E755C62AA8EABC28D3D90F4CE98B896E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MVImagePicker/MVImagePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MVImagePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MVImagePicker/MVImagePicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MVImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F4184E2FB6A7B72DABABA2E4975C2808 /* Release */ = {
+		E7CD403EA88A5093702A83CDDB957143 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0EE7844D766AA7D884EA6E4B5AF05804 /* SnapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1470,45 +1492,20 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F7AEB3633ACAF503E8F7B382EDDA78B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03E7D112B8259DC22D027D09D50D4DC /* MVImagePicker.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MVImagePicker";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/MVImagePicker/ResourceBundle-MVImagePicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MVImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18B7BDF375C6B30E291DFABB9E1F3F05 /* Build configuration list for PBXNativeTarget "MVImagePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE6318CB710AFDE562450C8DCEDB2D32 /* Debug */,
-				E755C62AA8EABC28D3D90F4CE98B896E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1A51AA99DBC0ABFE79B5500819C06F5A /* Build configuration list for PBXNativeTarget "Pods-MVImagePicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1536,20 +1533,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		624F30BE71920BA975B6A54CFBFC320D /* Build configuration list for PBXNativeTarget "MVImagePicker-MVImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28720D21D11213E8E4CFAB75A288F4F6 /* Debug */,
+				2F01C8F52A939B9D83E13A69AE18C2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6E33803C6203BA70B6E4BA34EDD08A6A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C04A1235785028D2456EE8289D641E77 /* Debug */,
 				B29509FF3A08D1310A0125ECE1A0E1C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB47DA477B877BCE9442757A899C69EC /* Build configuration list for PBXNativeTarget "MVImagePicker-MVImagePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7AEB3633ACAF503E8F7B382EDDA78B3 /* Debug */,
-				2AEFB020AD0EA2191E14384AB2148A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1563,11 +1560,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAD6A7A8373A7832DE318C82DD789AF8 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		EDA0BFD145B749C4AAE7D275A4612863 /* Build configuration list for PBXNativeTarget "MVImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3B7B21A9E09CF1AE6572A49F03495C9 /* Debug */,
-				F4184E2FB6A7B72DABABA2E4975C2808 /* Release */,
+				A2F54AA0D12EA78AE44CA30C0978344B /* Debug */,
+				14824B0FB67564583F1F0D20818899B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F555958F745DEBF73BD93CBE4BD84BAF /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CD403EA88A5093702A83CDDB957143 /* Debug */,
+				29FCF90DE312EBCACF8E49FD760A4BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
