@@ -23,7 +23,10 @@ Pod::Spec.new do |s|
     DESC
 
     s.homepage = 'https://github.com/mvetoshkin/MVImagePicker'
-    # s.screenshots = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.screenshots = [
+        'https://cloud.githubusercontent.com/assets/882141/16874775/578cd18e-4aac-11e6-802e-dc614d92a52e.PNG',
+        'https://cloud.githubusercontent.com/assets/882141/16874806/7c261190-4aac-11e6-9103-19fb6d21965a.PNG'
+    ]
     s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.author = { 'Mikhail Vetoshkin' => 'mvetoshkin@gmail.com' }
     s.source = { :git => 'https://github.com/mvetoshkin/MVImagePicker.git', :tag => s.version.to_s }
@@ -36,7 +39,7 @@ Pod::Spec.new do |s|
     }
 
     # s.public_header_files = 'Pod/**/*.h'
-    # s.frameworks = 'UIKit', 'MapKit'
 
+    s.frameworks = 'UIKit', 'Photos'
     s.dependency 'SnapKit'
 end
