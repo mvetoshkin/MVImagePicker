@@ -1,6 +1,6 @@
 PODS:
   - JTSImageViewController (1.5.1)
-  - MVImagePicker (1.0.2):
+  - MVImagePicker (1.0.3):
     - SnapKit
   - SnapKit (0.20.0)
   - SVProgressHUD (1.1.3)
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
-  MVImagePicker: 58f30408fca24194473cf961a3a80af29332bd83
+  MVImagePicker: 0827879731885bab3cc2838f2e5add1bd5363188
   SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 

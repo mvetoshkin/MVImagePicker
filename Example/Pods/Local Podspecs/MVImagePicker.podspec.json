@@ -1,6 +1,6 @@
 {
   "name": "MVImagePicker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "MVImagePicker allows you to inject the photo library to your app",
   "description": "MVImagePicker allows you to inject the photo library to your app and to pick images from it.\nThat is an attempt to create instagram-like image picker.",
   "homepage": "https://github.com/mvetoshkin/MVImagePicker",
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/mvetoshkin/MVImagePicker.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "8.0"
