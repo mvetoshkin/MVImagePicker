@@ -1,6 +1,6 @@
 # MVImagePicker
 
-[![CI Status](http://img.shields.io/travis/Mikhail Vetoshkin/MVImagePicker.svg?style=flat)](https://travis-ci.org/Mikhail Vetoshkin/MVImagePicker)
+[![CI Status](http://img.shields.io/travis/mvetoshkin/MVImagePicker.svg?style=flat)](https://travis-ci.org/mvetoshkin/MVImagePicker)
 [![Version](https://img.shields.io/cocoapods/v/MVImagePicker.svg?style=flat)](http://cocoapods.org/pods/MVImagePicker)
 [![License](https://img.shields.io/cocoapods/l/MVImagePicker.svg?style=flat)](http://cocoapods.org/pods/MVImagePicker)
 [![Platform](https://img.shields.io/cocoapods/p/MVImagePicker.svg?style=flat)](http://cocoapods.org/pods/MVImagePicker)
