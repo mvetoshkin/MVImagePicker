@@ -30,7 +30,7 @@ class ImagePickerPhotosViewController: UIViewController, PHPhotoLibraryChangeObs
     private var forceSetupOffset = false
     private let imageManager = PHImageManager()
 
-    public var multipleSelection: Bool = false
+    var multipleSelection: Bool = false
 
     // MARK: Lazy init
 

@@ -18,7 +18,7 @@ class ImagePickerAlbumsViewController: UIViewController, PHPhotoLibraryChangeObs
     private let albumsDataSource = ImagePickerAlbumsDataSource()
     private let photosDataSource: ImagePickerPhotosDataSource
 
-    public var multipleSelection: Bool = false
+    var multipleSelection: Bool = false
 
     // MARK: Lazy init
 
