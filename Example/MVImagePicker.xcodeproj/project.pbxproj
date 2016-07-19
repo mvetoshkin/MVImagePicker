@@ -14,6 +14,7 @@
 		CB05FAAA1D1C1A8800312FF6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05FAA91D1C1A8800312FF6 /* UIColor+Extension.swift */; };
 		CB05FAAD1D1C1A9900312FF6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05FAAC1D1C1A9900312FF6 /* MainViewController.swift */; };
 		CB05FAAF1D1C2D7700312FF6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05FAAE1D1C2D7700312FF6 /* BaseNavigationController.swift */; };
+		CB8B80751D3E4422002C4FBC /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = CB8B80741D3E4422002C4FBC /* CHANGELOG.md */; };
 		E3432806E0183DF31AF43870 /* Pods_MVImagePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753EEE1DEE36BC072FB2F3C /* Pods_MVImagePicker_Tests.framework */; };
 		F0B7213521D04CBA11F2D9A9 /* Pods_MVImagePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2151FB34628A23A0D3FC37B /* Pods_MVImagePicker_Example.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		CB05FAA91D1C1A8800312FF6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CB05FAAC1D1C1A9900312FF6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = "<group>"; };
 		CB05FAAE1D1C2D7700312FF6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNavigationController.swift; path = Controllers/BaseNavigationController.swift; sourceTree = "<group>"; };
+		CB8B80741D3E4422002C4FBC /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		E2151FB34628A23A0D3FC37B /* Pods_MVImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				B64839CC409F5C3A7CD1636A /* MVImagePicker.podspec */,
 				7DC8A376E8EF5AB4026F7E4D /* README.md */,
 				0E4843D836E8A880C9709CF3 /* LICENSE */,
+				CB8B80741D3E4422002C4FBC /* CHANGELOG.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB05FAAF1D1C2D7700312FF6 /* BaseNavigationController.swift in Sources */,
+				CB8B80751D3E4422002C4FBC /* CHANGELOG.md in Sources */,
 				CB05FAAD1D1C1A9900312FF6 /* MainViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				CB05FAAA1D1C1A8800312FF6 /* UIColor+Extension.swift in Sources */,
