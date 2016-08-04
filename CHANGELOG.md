@@ -14,7 +14,7 @@
 
 ## [1.0.0](https://github.com/mvetoshkin/MVImagePicker/tree/1.0.0) (2016-07-18)
 
-New projects with features:
+New project with some features:
 - Multiple selection
 - Switching between albums
 - Taking photos

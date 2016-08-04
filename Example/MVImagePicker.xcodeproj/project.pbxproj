@@ -145,10 +145,10 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				CB8B80741D3E4422002C4FBC /* CHANGELOG.md */,
+				0E4843D836E8A880C9709CF3 /* LICENSE */,
 				B64839CC409F5C3A7CD1636A /* MVImagePicker.podspec */,
 				7DC8A376E8EF5AB4026F7E4D /* README.md */,
-				0E4843D836E8A880C9709CF3 /* LICENSE */,
-				CB8B80741D3E4422002C4FBC /* CHANGELOG.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
